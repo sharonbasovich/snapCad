@@ -6,7 +6,7 @@ import tempfile
 import uuid
 from werkzeug.utils import secure_filename
 
-app = Flask(__name__)
+app = Flask(_name__)
 CORS(app)
 # Configure upload folder and allowed extensions
 UPLOAD_FOLDER = 'uploads'
